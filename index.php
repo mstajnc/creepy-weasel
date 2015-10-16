@@ -1,5 +1,12 @@
 <?php 
+session_start();
 
+if (!isset($_SESSION['count'])) {
+    $_SESSION['count'] = 1;
+}
+
+error_reporting(-1);
+        
 require('vendor/autoload.php');
 
 $dotenv = new Dotenv\Dotenv(__DIR__);

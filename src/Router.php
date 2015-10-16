@@ -5,7 +5,8 @@ class Router {
     
     public function __construct() {
         $this->table['home'] = new Route(Model\HomeModel::class, View\HomeView::class, Controller\HomeController::class);
-        $this->table['guestbook'] = new Route(Model\GuestbookModel::class, View\GuestbookView::class, Controller\GuestbookController::class);  
+        $this->table['guestbook'] = new Route(Model\GuestbookModel::class, View\GuestbookView::class, Controller\GuestbookController::class);
+        $this->table['counter'] = new Route(Model\CounterModel::class, View\CounterView::class, Controller\CounterController::class);
     }
     
     public function getRoute($route) {
