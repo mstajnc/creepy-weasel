@@ -4,9 +4,9 @@ Files for CHT2520 Lab 4.
 Files make up a simple MVC Guest Book.
 
 ## Requirements
-    - PHP 5.5
-    - MySQL
-    - Composer
+- PHP 5.5
+- MySQL
+- Composer
 
 ## Installation
 
